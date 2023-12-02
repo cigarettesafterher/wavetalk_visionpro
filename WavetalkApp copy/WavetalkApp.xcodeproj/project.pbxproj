@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3385D6AE2AF6383100F70C48 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 3385D6AD2AF6383100F70C48 /* RealityKitContent */; };
+		3385D6B02AF6383100F70C48 /* WavetalkAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3385D6AF2AF6383100F70C48 /* WavetalkAppApp.swift */; };
+		3385D6B22AF6383100F70C48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3385D6B12AF6383100F70C48 /* ContentView.swift */; };
+		3385D6B42AF6383200F70C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3385D6B32AF6383200F70C48 /* Assets.xcassets */; };
+		3385D6B72AF6383200F70C48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3385D6B62AF6383200F70C48 /* Preview Assets.xcassets */; };
+		3385D6C02AF63E2100F70C48 /* SideMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3385D6BF2AF63E2100F70C48 /* SideMenuItem.swift */; };
+		3385D6C52AF642F200F70C48 /* SideBarViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3385D6C42AF642F200F70C48 /* SideBarViews.swift */; };
+		3385D6C72AF64E5B00F70C48 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3385D6C62AF64E5B00F70C48 /* Album.swift */; };
+		3385D6C92AF659BD00F70C48 /* AlbumViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3385D6C82AF659BD00F70C48 /* AlbumViews.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3385D6A82AF6383000F70C48 /* WavetalkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WavetalkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3385D6AC2AF6383100F70C48 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		3385D6AF2AF6383100F70C48 /* WavetalkAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WavetalkAppApp.swift; sourceTree = "<group>"; };
+		3385D6B12AF6383100F70C48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3385D6B32AF6383200F70C48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3385D6B62AF6383200F70C48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3385D6B82AF6383200F70C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3385D6BF2AF63E2100F70C48 /* SideMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuItem.swift; sourceTree = "<group>"; };
+		3385D6C42AF642F200F70C48 /* SideBarViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarViews.swift; sourceTree = "<group>"; };
+		3385D6C62AF64E5B00F70C48 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		3385D6C82AF659BD00F70C48 /* AlbumViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViews.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3385D6A52AF6383000F70C48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3385D6AE2AF6383100F70C48 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3385D69F2AF6383000F70C48 = {
+			isa = PBXGroup;
+			children = (
+				3385D6AA2AF6383000F70C48 /* WavetalkApp */,
+				3385D6C12AF6429500F70C48 /* Views */,
+				3385D6BE2AF63DF400F70C48 /* Models */,
+				3385D6AB2AF6383100F70C48 /* Packages */,
+				3385D6A92AF6383000F70C48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3385D6A92AF6383000F70C48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3385D6A82AF6383000F70C48 /* WavetalkApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3385D6AA2AF6383000F70C48 /* WavetalkApp */ = {
+			isa = PBXGroup;
+			children = (
+				3385D6AF2AF6383100F70C48 /* WavetalkAppApp.swift */,
+				3385D6B12AF6383100F70C48 /* ContentView.swift */,
+				3385D6B32AF6383200F70C48 /* Assets.xcassets */,
+				3385D6B82AF6383200F70C48 /* Info.plist */,
+				3385D6B52AF6383200F70C48 /* Preview Content */,
+			);
+			path = WavetalkApp;
+			sourceTree = "<group>";
+		};
+		3385D6AB2AF6383100F70C48 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				3385D6AC2AF6383100F70C48 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		3385D6B52AF6383200F70C48 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3385D6B62AF6383200F70C48 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3385D6BE2AF63DF400F70C48 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3385D6BF2AF63E2100F70C48 /* SideMenuItem.swift */,
+				3385D6C62AF64E5B00F70C48 /* Album.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3385D6C12AF6429500F70C48 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3385D6C42AF642F200F70C48 /* SideBarViews.swift */,
+				3385D6C82AF659BD00F70C48 /* AlbumViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3385D6A72AF6383000F70C48 /* WavetalkApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3385D6BB2AF6383200F70C48 /* Build configuration list for PBXNativeTarget "WavetalkApp" */;
+			buildPhases = (
+				3385D6A42AF6383000F70C48 /* Sources */,
+				3385D6A52AF6383000F70C48 /* Frameworks */,
+				3385D6A62AF6383000F70C48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WavetalkApp;
+			packageProductDependencies = (
+				3385D6AD2AF6383100F70C48 /* RealityKitContent */,
+			);
+			productName = WavetalkApp;
+			productReference = 3385D6A82AF6383000F70C48 /* WavetalkApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3385D6A02AF6383000F70C48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					3385D6A72AF6383000F70C48 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 3385D6A32AF6383000F70C48 /* Build configuration list for PBXProject "WavetalkApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3385D69F2AF6383000F70C48;
+			productRefGroup = 3385D6A92AF6383000F70C48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3385D6A72AF6383000F70C48 /* WavetalkApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3385D6A62AF6383000F70C48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3385D6B72AF6383200F70C48 /* Preview Assets.xcassets in Resources */,
+				3385D6B42AF6383200F70C48 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3385D6A42AF6383000F70C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3385D6B22AF6383100F70C48 /* ContentView.swift in Sources */,
+				3385D6C52AF642F200F70C48 /* SideBarViews.swift in Sources */,
+				3385D6C92AF659BD00F70C48 /* AlbumViews.swift in Sources */,
+				3385D6B02AF6383100F70C48 /* WavetalkAppApp.swift in Sources */,
+				3385D6C02AF63E2100F70C48 /* SideMenuItem.swift in Sources */,
+				3385D6C72AF64E5B00F70C48 /* Album.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3385D6B92AF6383200F70C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		3385D6BA2AF6383200F70C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		3385D6BC2AF6383200F70C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WavetalkApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 2767KUYECX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NewComputer.WavetalkApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		3385D6BD2AF6383200F70C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WavetalkApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 2767KUYECX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NewComputer.WavetalkApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3385D6A32AF6383000F70C48 /* Build configuration list for PBXProject "WavetalkApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3385D6B92AF6383200F70C48 /* Debug */,
+				3385D6BA2AF6383200F70C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3385D6BB2AF6383200F70C48 /* Build configuration list for PBXNativeTarget "WavetalkApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3385D6BC2AF6383200F70C48 /* Debug */,
+				3385D6BD2AF6383200F70C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3385D6AD2AF6383100F70C48 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3385D6A02AF6383000F70C48 /* Project object */;
+}
